@@ -1,15 +1,6 @@
 body {
-    background: #a1b3bc;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #a1b3bc 0%, #485a63 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #a1b3bc 0%, #485a63 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #a1b3bc 0%, #485a63 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1b3bc', endColorstr='#485a63', GradientType=0);
-    /* IE6-9 */
-    color: white;
+
+    color: #485a63;
 }
 
 #assumptions-header {
@@ -25,6 +16,10 @@ body {
 
 .big-block {
     margin-bottom: 15vmax;
+}
+
+.mar-bot {
+    margin-bottom: 5vmax;
 }
 
 .big-icon {
@@ -95,9 +90,9 @@ body {
 
 .button.hollow {
     background: transparent;
-    color: white;
+    color: #485a63;
     transition: 0.2s;
-    border: 1px solid white;
+    border: 1px solid #485a63;
     border-radius: 5px;
 }
 
@@ -214,9 +209,9 @@ body {
     padding: 10px;
     color: #485a63 !important;
     border-radius: 20px;
-    -webkit-box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 0.3);
-    -moz-box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 0.3);
-    box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 0.3);
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 0.5);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 0.5);
+    box-shadow: 10px 10px 20px 0px rgba(240, 240, 240, 0.5);
 }
 
 .future {
