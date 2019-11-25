@@ -1,5 +1,5 @@
 body {
-
+    background: #fafafa;
     color: #485a63;
 }
 
@@ -15,11 +15,21 @@ body {
 }
 
 .big-block {
-    margin-bottom: 15vmax;
+    margin-bottom: 10vmax;
+    padding: 3vmax;
 }
 
 .mar-bot {
     margin-bottom: 5vmax;
+}
+
+h2 {
+    font-size: 5vmax;
+    font-weight: bold;
+}
+
+.alt-row {
+    background: #ECEFF0;
 }
 
 .big-icon {
@@ -28,6 +38,10 @@ body {
 
 .padd-top {
     padding-top: 20px;
+}
+
+.padd10 {
+    padding: 40px !important;
 }
 
 .zurb-icon {
