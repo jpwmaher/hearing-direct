@@ -1,6 +1,7 @@
 body {
-    background: #fafafa;
+    background: #fff;
     color: #485a63;
+    font-family: 'avenir35_light', sans-serif;
 }
 
 #assumptions-header {
@@ -26,6 +27,21 @@ body {
 h2 {
     font-size: 5vmax;
     font-weight: bold;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'avenir95_black', sans-serif;
+}
+
+strong,
+b {
+    font-family: 'avenir65_medium', sans-serif;
 }
 
 .alt-row {
